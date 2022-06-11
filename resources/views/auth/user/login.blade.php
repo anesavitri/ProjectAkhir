@@ -32,7 +32,7 @@
                 Mohon masuk menggunakan akun yang sudah <br> terdaftar di website <span class="text-blue">KawanKarir</span>
             </p>
             <p>
-                <a class="btn btn-border btn-google-login" href="#">
+                <a class="btn btn-border btn-google-login" href="{{route('user.login.google')}}">
                     <img src="{{asset('images/ic_google.svg')}}" class="icon" alt=""> Masuk dengan Google
                 </a>
             </p>
